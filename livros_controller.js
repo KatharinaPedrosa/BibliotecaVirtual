@@ -4,13 +4,13 @@ const UsaPrecos = $('#precos').val();
 
     if(UsaPrecos == 1){
         if(!UsaOrdem){
-            JavaScriptSemPreco(); 
+            LivrosSemPreco(); 
         }   
     };
     
     //Se usa a Ordem
     if (UsaOrdem) { 
-        LivroOrdemAlfabetica()
+        LivroOrdemAlfabetica();
     } else if(UsaPrecos == 2) {
         LivrosMenorPreco();
     } else if(UsaPrecos == 3){ 
