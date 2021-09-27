@@ -10,8 +10,9 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" href="estilo.css">
+<!--- JS -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!--<script language="javascript" src="calculo.js"></script> -->
+<script language="javascript" src="filtros_controller.js"></script>
 <script language="javascript" src="livros_controller.js"></script>
 </head>
 
@@ -31,15 +32,7 @@
       <div id="DivLivros" class="container-fluid"> 
         <!-- Filtros -->
         <div class="form-row">
-          <div class="col-6 ">
-            <select id="categoria" class="custom-select" id="inputGroupSelect01">
-              <option value="1" selected>Escolha uma categoria</option>
-              <option value="2">JavaScript</option>
-              <option value="3">Delphi</option>
-              <option value="4">Python</option>
-            </select>
-          </div>
-          <div class="col-4 ">
+          <div class="col-10 ">
             <select id="precos" class="custom-select" id="inputGroupSelect01">
               <option value="1" selected>Escolha uma opção</option>
               <option value="2">Menor Preço</option>
@@ -51,9 +44,19 @@
           </div>
         </div>
         <br>
+        <div class="col-4 ">
+          <div class="form-check">
+            <input id="Ordem" class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+            <label class="form-check-label" for="defaultCheck1" style="color: azure;">
+              Filtrar por Ordem Alfabética
+            </label>
+          </div>
+        </div>
+        <br>
         <br>
         <!-- Teste Card -->       
 
+      </div>
       </div>
     </div>
   </div>
