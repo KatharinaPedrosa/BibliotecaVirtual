@@ -5,7 +5,9 @@ const UsaPrecos = $('#precos').val();
     if(UsaPrecos == 1){
         if(!UsaOrdem){
             LivrosSemPreco(); 
-        }   
+        }else{
+            LivroOrdemAlfabetica();
+        }
     };
     
     //Se usa a Ordem
