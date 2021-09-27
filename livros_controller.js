@@ -12,8 +12,8 @@ const UsaPrecos = $('#precos').val();
     if (UsaOrdem) { 
         LivroOrdemAlfabetica()
     } else if(UsaPrecos == 2) {
-            JavaScriptMenorPreco();
+        LivrosMenorPreco();
     } else if(UsaPrecos == 3){ 
-            JavaScriptMaiorPreco();
+        LivrosMaiorPreco();
         }
     }
