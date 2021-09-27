@@ -4,7 +4,7 @@ const UsaPrecos = $('#precos').val();
 
     if(UsaPrecos == 1){
         if(!UsaOrdem){
-            JavaScriptSemPreco(); 
+            LivrosSemPreco(); 
         }   
     };
     
