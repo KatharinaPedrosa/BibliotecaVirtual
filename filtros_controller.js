@@ -94,7 +94,7 @@
         const CardLivros = $('#CardLivros');
     //    CardLivros.delete();
         DivLivros.append(`
-        <h3 style="color: azure;">Livros de Delphi! <span class="badge badge-secondary">Não tão novos</span></h3>                
+        <h3 style="color: azure;">Livros de JavaScript! <span class="badge badge-secondary">Novos</span></h3>                
         <br>
         <div id="CardLivros">  
           <div class="card-deck">
@@ -136,7 +136,7 @@
 
             <br>
             <br>
-            <h3 style="color: azure;">Livros de JavaScript! <span class="badge badge-secondary">Novos</span></h3>                
+            <h3 style="color: azure;">Livros de Delphi! <span class="badge badge-secondary">Não tão novos</span></h3>                
             <br>
             <div id="CardLivros">    
               <div class="card-deck">
