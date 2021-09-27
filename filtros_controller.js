@@ -1,9 +1,10 @@
     //Atualizado
     function LivrosSemPreco (){
-        const DivLivros = $('#DivLivros');
-        const CardLivros = $('#CardLivros'); 
+
+        const DivResultado = $('#DivResultado'); 
     //    CardLivros.delete();
-        DivLivros.append(`
+    DivResultado.empty();
+    DivResultado.append(`
         <h3 style="color: azure;">Livros de Delphi! <span class="badge badge-secondary">Não tão novos</span></h3>                
         <br>
         <div id="CardLivros">    
@@ -90,10 +91,11 @@
     }
     //Atualizado
     function LivrosMenorPreco(){
-        const DivLivros = $('#DivLivros');
-        const CardLivros = $('#CardLivros');
+ 
+        const DivResultado = $('#DivResultado');
     //    CardLivros.delete();
-        DivLivros.append(`
+    DivResultado.empty();
+    DivResultado.append(`
         <h3 style="color: azure;">Livros de JavaScript! <span class="badge badge-secondary">Novos</span></h3>                
         <br>
         <div id="CardLivros">  
@@ -179,8 +181,9 @@
     }
     //
     function LivrosMaiorPreco(){
-        const DivLivros = $('#DivLivros');
-        DivLivros.append(`
+        const DivResultado = $('#DivResultado');
+        DivResultado.empty();
+        DivResultado.append(`
         <h3 style="color: azure;">Livros de Delphi! <span class="badge badge-secondary">Não tão novos</span></h3>                
         <br>
         <div id="CardLivros">  
@@ -266,8 +269,9 @@
     }
     //
     function LivroOrdemAlfabetica(){
-        const DivLivros = $('#DivLivros');
-        DivLivros.append(`
+        const DivResultado = $('#DivResultado');
+        DivResultado.empty();
+        DivResultado.append(`
 
         `);
     }
